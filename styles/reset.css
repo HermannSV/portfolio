@@ -1,0 +1,25 @@
+:root{
+   --background-color: #e4e3e3;
+   --link-color: #000;
+   --intro-color: #afdfff7c;
+   --item-color: rgba(255, 255, 255, 0.836);
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--link-color);
+}

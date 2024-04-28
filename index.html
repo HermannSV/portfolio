@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <title>Hermann's Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="title">
+      <h3 class="title-text">Hermann Sámano</h3>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+<!--      <li><a href="#hobbies">Hobbies</a></li>-->
+          <li><a href="#education">education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <section class="intro" id="intro">
+          <div class="intro-container">
+            <img class="intro-photo" src="assets/profile.jpg">
+            <div class="intro-text">
+              <h2>
+                Welcome to my digital playground! Dive in and explore the projects I've brought to life
+              </h2>
+              <h3>
+                This portfolio is just a digital canvas showcasing the skills I've picked up so far and a sneak peek at the horizons I'm looking to conquer next
+              </h3>
+              <ul class="intro-links">
+                <li class="intro-links-item"><a href="https://github.com/HermannSV" target=”_blank”><img src="assets/github.png"></a></li>
+                <li class="intro-links-item"><a href="https://www.linkedin.com/in/hsvignau/" target=”_blank”><img src="assets/linkedin.png"></a></li>
+                <li class="intro-links-item"><a href="https://drive.google.com/file/d/1snw_pXw612CQROkazgKQkKhfOSsP37AY/view?usp=sharing" target=”_blank”><img src="assets/pdf.png"></a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="about-title">About Me</h2>
+          <div class="about-container">
+            <p class="about-text">
+              Ever since I was a kid, I've been obsessed with how technology and creativity interact with each other. One way or another I've always been exposed to the world of programming, but I hadn't given myself a chance to try the magic myself. Until recently, when I plunged headfirst into front-end development, where I gotten a chance to build aesthetic and functional websites using my experience in UX/UI.
+            </p>
+            <p class="about-text">
+              While I might be a fresh face on the scene, I've already completed the Oracle Next education Front End Dev course and gotten my hands dirty with different languages and tools as my first challenge. I'm eager to adapt and learn everything I can. 
+            </p>
+          </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="skills-title">Skills</h2>
+            <div class="skills-container">
+              <div class="skills-box">
+                <ul>
+                    <li class="skills-img"><img src="assets\html.png"></li>
+                    <li class="skills-name"> HTML5</li>
+                </ul>
+              </div>
+
+              <div class="skills-box">
+                <ul>
+                    <li class="skills-img"><img src="assets\js_icon.png" alt=""></li>
+                    <li class="skills-name">Javascript</li>
+                </ul>
+              </div>
+
+              <div class="skills-box">
+                <ul>
+                    <li class="skills-img"><img src="assets\react_icon.png" alt=""> </li>
+                    <li class="skills-name">React</li>
+                </ul>
+              </div>
+
+              <div class="skills-box">
+                <ul>
+                    <li class="skills-img"><img src="assets\css_icon.png" alt=""> </li>
+                    <li class="skills-name">CSS</li>
+                </ul>
+              </div>
+          </div>
+        </section>
+        
+        <section class="projects" id="projects">
+          <h2 class="projects-title">Projects</h2>
+          <div class="projects-slider">
+              <div class="projects-images">
+                <input type="radio" name="images" id="img1" checked>
+                <input type="radio" name="images" id="img2">
+                <input type="radio" name="images" id="img3">
+                <input type="radio" name="images" id="img4">
+                <img class="m1" src="assets/barberia.png" alt="img1">
+                <img class="m2" src="assets/aluraplay.png" alt="img2">
+                <img class="m3" src="assets/secreto.png" alt="img3">
+                <img class="m4" src="assets/encryption.png" alt="img4">
+              </div>
+              <div class="projects-nav">
+                <label for="img1"></label>
+                <label for="img2"></label>
+                <label for="img3"></label>
+                <label for="img4"></label>
+ <!--           <button onclick="repository();">Repository</button>-->
+              </div>
+          </div>
+        </section>
+<!--        
+        <section class="hobbies" id="hobbies">
+          <h3 class="hobbies-title">Hobbies</h3>
+          <div class="hobbies-container">
+            <div class="hobbies-box">
+                <ul>
+                    <li class="hobbies-img"><img src="assets\gaming.png"></li>
+                    <li class="hobbies-name"> Gaming</li>
+                </ul>
+            </div>
+
+            <div class="hobbies-box">
+                <ul>
+                    <li class="hobbies-img"> <img src="assets\drums.png" alt=""></li>
+                    <li class="hobbies-name">Drumming</li>
+                </ul>
+            </div>
+
+            <div class="hobbies-box">
+                <ul>
+                    <li class="hobbie-img"><img src="assets\tv_icon.png" alt=""></li>
+                    <li class="hobbie-name">Movies</li>
+                </ul>
+            </div>
+
+            <div class="hobbies-box">
+                <ul>
+                    <li class="hobbie-img"> <img src="assets\calisthenics.png" alt=""> </li>
+                    <li class="hobbie-name">Calisthenics</li>
+                </ul>
+            </div>
+            </div>
+          </div>
+        </section>
+-->
+        <section class="education" id="education">
+          <h2 class="education-title">Education</h2>
+            <div class="education-container">
+              <div class="education-box">
+                <ul class="education-list">
+                  <li class="education-list-img"><img src="assets\one.png"></li>
+                  <li class="education-list-title"><h4>Front End Development</h4></li>
+                  <li class="education-list-subtitle"><p>2024 - ONE</p></li>
+                </ul>
+              </div>
+              <div class="education-box">
+                <ul class="education-list">
+                  <li class="education-list-img"><img src="assets\milenio.png"></li>
+                  <li class="education-list-title"><h4>Marketing Bachelor Degree</h4></li>
+                  <li class="education-list-subtitle"><p>2017 - Universidad TecMilenio</p></li>
+                </ul>
+              </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <h2 class="contact-title">Contact</h2>
+          <div class="contact-container">
+            <form class="contact-form">
+              <label for="full-name">Full Name:</label>
+              <input type="text" id="full-name" class="input-padron" required />
+    
+              <label for="email">Email:</label>
+              <input type="email" id="email" class="input-padron" required placeholder="email@domain.com">
+    
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" class="input-padron" required>
+              
+              <label for="mensaje">Message:</label>
+              <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+              <input type="submit" value="Send" class="send">
+            </form>
+          </div>
+
+        </section>
+    </main>
+
+    <footer>
+      <p>Developed by Hermann Sámano</p>
+      <p>2024</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>
